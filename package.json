@@ -1,0 +1,15 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "node.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vimukthi",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "inquirer": "^12.2.0"
+  }
+}
