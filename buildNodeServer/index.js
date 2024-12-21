@@ -12,7 +12,7 @@ createServer((req,res,err) =>{
   
     if(err)
     {
-        log(err);
+        log('index.js err:',err);
     }
 
      server(req,res);
