@@ -6,7 +6,7 @@ console.log('vimukthi 2');
 
 setTimeout(()=>{
     console.log('timer 1');
-},3)
+},0)
 console.log('vimukthi 4');
 
 //high priority
@@ -21,7 +21,7 @@ console.log('vimukthi 5');
 
 
 //low priority
-readFile('./hey.txt',(data,err)=>{
+readFile('./hey.txt',(err,data)=>{
     if(err)
     {
      console.log(err);
@@ -34,6 +34,6 @@ console.log('vimukthi 6');
 
 setTimeout(()=>{
     console.log('timer 2');
-},3)
+},0)
 
 console.log('vimukthi 8');
